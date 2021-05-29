@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="69" visitedSequencePoints="68" numBranchPoints="44" visitedBranchPoints="43" sequenceCoverage="98.55" branchCoverage="97.73" maxCyclomaticComplexity="9" minCyclomaticComplexity="1" maxCrapScore="9" minCrapScore="1" visitedClasses="6" numClasses="6" visitedMethods="21" numMethods="22" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="98-36-C9-92-AD-CE-41-6B-D0-FE-DB-2F-8E-6E-5C-45-0D-CA-97-F5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Private.CoreLib.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Private.CoreLib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F9-54-11-7A-01-7C-B4-6E-04-45-1E-69-5E-B1-81-2A-5A-A0-BB-C5">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.testhost\16.0.1\lib\netstandard1.5\testhost.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>testhost</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="61-9E-5C-06-EA-FB-50-38-AC-C2-DB-14-D4-8D-D3-14-CB-BF-5A-66">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="72-B8-69-C7-DF-84-A7-5D-D8-BD-7C-52-6C-AA-43-70-EE-86-15-EC">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.objectmodel\16.0.1\lib\netstandard1.5\Microsoft.TestPlatform.CoreUtilities.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9B-28-B1-50-8F-3C-CC-E2-AB-80-84-ED-2A-81-54-B9-2D-8B-6B-DA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.Tracing.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tracing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="FD-5D-15-3F-2B-5F-9A-8C-16-B4-E0-41-C5-C3-DE-C2-4D-FA-26-EE">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.objectmodel\16.0.1\lib\netstandard1.5\Microsoft.TestPlatform.PlatformAbstractions.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.PlatformAbstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="57-02-1E-15-7D-26-6E-8F-51-B6-01-12-27-54-0A-D1-4E-43-A3-14">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-9E-E8-BF-B1-4C-9D-DB-92-3E-7B-AC-39-27-51-E0-54-1C-3A-38">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.Debug.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Debug</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="32-35-25-52-1F-B6-5E-FD-E9-4A-9A-2E-6E-7C-FF-EC-6A-44-B9-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D4-5C-8D-72-F0-E9-8C-B1-FC-69-69-17-8E-8F-E3-FF-CF-B0-C0-E1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Globalization.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2D-4A-E2-EE-F5-83-C0-84-2D-42-7F-51-64-49-96-C1-17-49-9D-FB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Collections.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="1F-FF-9D-57-0C-4E-68-4C-F0-76-1F-D9-61-77-5F-15-C0-94-F5-5E">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.testhost\16.0.1\lib\netstandard1.5\Microsoft.TestPlatform.CrossPlatEngine.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CrossPlatEngine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="E0-5D-92-D9-CA-08-4D-C0-D4-25-CD-13-81-4A-FE-63-A5-B9-CC-81">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.testhost\16.0.1\lib\netstandard1.5\Microsoft.TestPlatform.CommunicationUtilities.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CommunicationUtilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="87-51-E7-81-89-D1-B9-83-14-4E-0D-F7-B4-24-CF-84-7C-AD-44-05">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.objectmodel\16.0.1\lib\netstandard1.5\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="50-43-83-0B-99-C8-26-E0-FC-D3-8D-AE-C2-BE-D9-01-BB-2F-DC-4A">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.testhost\16.0.1\lib\netstandard1.5\Microsoft.VisualStudio.TestPlatform.Common.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="C1-CE-AF-E3-FA-14-E0-99-C9-78-20-58-CF-59-86-86-36-19-02-FD">
+      <ModulePath>C:\Users\adam\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</ModulePath>
+      <ModuleTime>2019-04-22T05:06:16Z</ModuleTime>
+      <ModuleName>Newtonsoft.Json</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="BA-9E-0B-FC-FF-FF-91-95-67-25-C4-6A-97-55-B9-6A-0E-9D-50-05">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\netstandard.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>netstandard</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CF-84-A9-F9-82-07-5E-5F-D2-B4-89-F1-3A-80-50-6C-5B-68-BC-D4">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Serialization.Formatters.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization.Formatters</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7C-21-FD-6B-78-3D-6B-07-B4-BA-DC-61-14-16-45-BA-D9-C8-7D-98">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="08-DB-5D-72-75-25-27-4C-0C-AF-0C-8B-95-C0-7E-CE-88-93-BA-02">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.TraceSource.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.TraceSource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8B-7E-15-68-29-69-C5-ED-F5-6F-97-12-A0-31-EF-1D-DB-66-CD-B5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0F-84-74-D9-46-38-EA-D1-57-76-2B-04-67-55-B2-E6-7B-B5-B1-82">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.Process.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Process</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-76-C0-57-A7-83-2C-18-D9-00-F5-41-3A-29-F8-18-B2-79-5F-F7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ComponentModel.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.ComponentModel.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DD-25-67-AF-BC-97-7D-24-A7-EA-FD-D7-95-40-6B-3F-53-7E-2B-2F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.InteropServices.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="7F-87-80-44-06-80-AC-08-40-A4-FA-AE-FA-7D-B3-01-EC-81-BB-0D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\Microsoft.Win32.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>Microsoft.Win32.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B7-D5-1C-10-A8-8E-F6-50-61-72-4C-03-0A-E7-D1-CE-A9-0E-13-38">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.ThreadPool.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.ThreadPool</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B0-86-E9-59-AF-AE-DD-F3-AE-D0-86-74-27-2A-D6-4F-41-B9-A0-65">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2B-C1-2B-90-9B-A7-EC-48-93-67-1F-E2-EB-30-75-A0-D8-86-09-83">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A4-09-96-D1-3A-16-85-33-05-7C-2A-1F-BD-CB-DD-46-65-79-21-FC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.Sockets.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.Sockets</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="42-F1-F9-03-C9-17-7D-54-3A-4E-24-D4-71-85-79-71-B3-51-0C-F8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.Overlapped.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.Overlapped</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="01-D7-3D-8C-03-92-4C-CF-B4-68-46-70-6A-FD-42-EC-A0-DE-63-D1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.NameResolution.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.NameResolution</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="44-30-D7-DE-CD-59-DB-41-09-C6-A3-D4-63-3B-46-39-57-0A-D7-C1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Private.Uri.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Private.Uri</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E6-5A-13-D9-CD-AE-44-C5-0A-6F-CD-F2-7F-AF-0E-32-D8-9B-B1-BC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Memory.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Memory</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-30-65-EF-CD-25-44-80-39-12-9E-6B-CC-DD-4C-21-10-72-83-DF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Principal.Windows.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Principal.Windows</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="17-83-97-42-A3-88-E6-7E-1C-90-2C-E9-73-46-2D-92-3D-8A-E8-EC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Claims.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Claims</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9D-E1-BA-8E-47-FC-0B-7E-45-98-A3-1B-A4-7D-00-3B-32-6B-5F-58">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Principal.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Principal</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="61-39-A2-0E-83-C3-67-3A-76-59-5F-8F-67-C6-2E-A0-E2-BB-BE-17">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-84-07-A8-F8-B7-97-B5-5C-7B-E4-82-4B-E0-72-B4-89-4A-04-19">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6E-6B-46-DB-FC-DF-6A-8F-AE-00-47-67-B3-0C-F4-1F-55-97-F6-80">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Linq.Expressions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Linq.Expressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-0A-1E-32-20-82-D8-A9-6E-CB-DC-C1-89-9E-15-58-9E-08-4C-55">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Numerics.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Numerics</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="32-CC-5D-89-04-4B-8E-F2-AF-83-ED-E9-04-B7-46-83-3D-EB-C9-65">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Linq.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CD-36-73-DD-09-E2-78-6A-3E-F9-59-D9-75-0C-EB-FE-B3-39-B8-AF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ComponentModel.TypeConverter.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.ComponentModel.TypeConverter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="80-7B-FF-C9-B2-7E-0D-B0-40-BC-C5-CE-38-BC-D4-FA-41-01-02-F8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Collections.Specialized.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Collections.Specialized</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-E6-C4-08-3B-8B-DE-C8-47-74-B2-17-B7-1F-FE-51-B2-99-06-72">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Drawing.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Drawing.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="55-4B-F3-C1-01-DE-1B-80-09-A5-9B-37-73-20-18-58-A6-12-4F-A0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ObjectModel.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6E-61-E8-46-D7-FA-71-11-6B-30-E9-03-15-07-38-3B-6E-09-D2-5A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Serialization.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="15-FD-59-44-54-87-F0-FA-6B-57-C8-2B-D1-39-C4-05-FF-17-6A-0A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Data.Common.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Data.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="76-DA-7C-7E-3F-6A-9B-04-B2-CA-CD-B4-02-2F-35-EB-D8-2F-3A-36">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.ReaderWriter.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.ReaderWriter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="91-2E-E5-9F-46-F4-0F-49-F5-B4-A7-00-8E-86-21-C0-5C-92-BF-4C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Private.Xml.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Private.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="12-A7-F5-6E-30-4A-0B-3C-FC-7E-9D-D1-A9-5A-F2-A9-77-D4-74-86">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ComponentModel.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.ComponentModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-B2-4D-A7-8E-4B-51-DD-11-45-9F-C8-DB-7E-8B-8F-B4-9A-D2-DA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Collections.NonGeneric.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Collections.NonGeneric</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D9-BF-37-64-A8-45-83-19-31-28-B6-54-33-B1-5B-84-6C-D2-A3-E0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.FileSystem.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="40-CA-B7-FD-3C-E9-9A-BA-A4-AC-8B-55-6F-5A-64-C2-D4-71-6F-34">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.FileSystem.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="68-3F-D3-A1-32-9F-8C-A0-A8-5D-51-59-C1-1A-56-46-0E-F3-A1-8C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Loader.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Loader</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-48-8E-CA-A5-B9-7A-0F-00-04-D9-05-3D-F8-9B-C8-CC-66-86-A7">
+      <ModulePath>C:\git\commercehub-challenge\tests\Exercise.Tests\bin\Release\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:12Z</ModuleTime>
+      <ModuleName>xunit.runner.visualstudio.dotnetcore.testadapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4E-FD-00-CA-9D-A4-C3-F4-F9-FE-76-D1-8E-72-E1-20-A0-E3-FF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.TypeExtensions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.TypeExtensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="92-A0-D3-58-E7-34-2E-3D-A1-E7-3D-FB-27-C7-83-DE-55-A3-79-C1">
+      <ModulePath>C:\Users\adam\.nuget\packages\xunit.abstractions\2.0.3\lib\netstandard2.0\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2018-08-25T23:54:14Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="29-D3-D9-92-54-28-91-92-36-B3-58-62-1E-ED-35-37-12-83-B8-5A">
+      <ModulePath>C:\git\commercehub-challenge\tests\Exercise.Tests\bin\Release\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:14Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.netcoreapp10</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="91-5A-71-CD-76-78-C6-79-36-A5-7F-25-DF-B7-50-C6-80-A1-71-5D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-16-7C-76-90-4D-F1-3B-B8-B7-1C-82-5F-C1-19-43-83-33-F1-51">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.Thread.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.Thread</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EF-C6-2E-ED-9D-E9-12-4D-5D-38-70-FD-A5-8F-F4-20-60-20-07-6E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7D-94-58-DF-F6-F4-83-1E-2D-C8-50-40-D1-79-7F-BA-CB-56-ED-78">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.Timer.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.Timer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F1-F4-20-E4-9C-30-FC-B8-DD-41-13-91-C6-A0-59-11-C0-B9-63-01">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.XmlDocument.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.XmlDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-15-94-6E-FC-A6-E9-CB-E8-C8-6F-93-D6-18-F7-4A-C6-1B-F3-A2">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="56-66-6B-87-65-01-CB-7C-CF-47-31-53-72-5E-79-6F-80-8F-82-16">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.InteropServices.RuntimeInformation.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.RuntimeInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A5-9E-91-6A-D4-06-25-00-57-F9-E8-F7-B7-F2-D8-57-32-8A-0D-71">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0E-3E-77-47-86-40-D9-9A-41-12-81-5C-FC-09-6C-A6-F0-88-0F-68">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A3-87-DB-98-1C-FB-40-55-5D-D6-56-4C-AA-EC-47-6A-AD-D5-18-D1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.XDocument.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.XDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="97-8A-C0-B8-F2-05-FE-66-FC-DA-26-B9-E0-5E-FC-40-7A-86-F2-6A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Private.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Private.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2D-85-4D-84-51-FF-3C-2B-4E-0A-9F-78-43-46-F1-37-E4-BC-0C-73">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Text.Encoding.Extensions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E8-33-C1-50-FD-30-1C-C4-BB-51-23-8E-99-42-07-64-34-92-4B-42">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Console.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="08-3A-B5-38-47-21-94-67-EA-6B-6A-D4-27-10-66-75-76-F4-FD-38">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.AppContext.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.AppContext</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BE-0A-EF-A5-06-DB-8C-FF-B0-D5-47-8D-BA-93-1D-5E-90-F0-D6-A0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Buffers.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Buffers</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5B-71-81-09-47-7B-9B-B4-53-BC-5F-91-B0-87-4B-7D-4C-3F-E1-17">
+      <ModulePath>C:\git\commercehub-challenge\tests\Exercise.Tests\bin\Release\netcoreapp2.2\Exercise.Tests.dll</ModulePath>
+      <ModuleTime>2021-05-29T03:44:35.5048554Z</ModuleTime>
+      <ModuleName>Exercise.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="21-7E-03-7F-23-A1-B7-C8-5E-9B-75-2B-78-B5-D3-54-9B-F6-E6-9C">
+      <ModulePath>C:\Users\adam\.nuget\packages\partner.integrations\0.1.0\lib\netcoreapp2.2\Partner.Integrations.dll</ModulePath>
+      <ModuleTime>2019-05-01T21:55:34Z</ModuleTime>
+      <ModuleName>Partner.Integrations</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="97-A8-97-88-6D-72-85-2E-DE-FC-43-BB-A3-10-70-A2-B6-91-83-D1">
+      <ModulePath>C:\Users\adam\.nuget\packages\castle.core\4.3.1\lib\netstandard1.5\Castle.Core.dll</ModulePath>
+      <ModuleTime>2018-06-20T19:07:48Z</ModuleTime>
+      <ModuleName>Castle.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C8-52-B3-D9-6A-58-4E-36-BB-32-4A-9B-91-83-88-E9-B2-72-BB-53">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="68-36-1D-01-39-C8-C2-59-91-FD-B5-88-F0-E5-48-CE-3A-C5-03-3E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Dynamic.Runtime.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Dynamic.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-D9-9E-4A-8E-FC-7A-C6-87-68-2E-B9-E7-48-D4-5A-75-5F-66-52">
+      <ModulePath>C:\Users\adam\.nuget\packages\fluentassertions\5.6.0\lib\netcoreapp2.0\FluentAssertions.dll</ModulePath>
+      <ModuleTime>2019-01-12T01:14:16Z</ModuleTime>
+      <ModuleName>FluentAssertions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B2-33-09-8F-96-19-BF-57-34-CA-AB-45-49-8A-BB-66-41-C5-3F-4B">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.codecoverage\16.0.1\lib\netcoreapp1.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:00Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.CodeCoverage.Shim</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-F8-BC-EA-6D-6C-C7-03-70-A6-D8-37-15-8E-BA-81-75-8C-DA-1E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\mscorlib.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="CE-DE-41-19-46-39-46-57-53-55-0A-DE-CB-EC-F3-2E-85-E5-82-C7">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll</ModulePath>
+      <ModuleTime>2016-09-01T00:42:00Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.PlatformAbstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8E-A6-B6-61-04-AF-F0-50-EC-AF-5B-E4-89-CA-EE-17-79-87-F5-6B">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll</ModulePath>
+      <ModuleTime>2016-09-01T01:42:00Z</ModuleTime>
+      <ModuleName>Microsoft.Extensions.DependencyModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="88-F7-C7-D2-60-DD-C9-3C-21-18-AF-51-ED-A2-55-1D-1A-74-18-54">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.TextWriterTraceListener.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.TextWriterTraceListener</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="31-01-E5-AE-AC-1D-ED-06-02-54-03-71-38-61-BC-3B-8D-F6-12-07">
+      <ModulePath>C:\Users\adam\.nuget\packages\microsoft.testplatform.testhost\16.0.1\lib\netstandard1.5\Microsoft.TestPlatform.Utilities.dll</ModulePath>
+      <ModuleTime>2019-03-04T13:14:18Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.Utilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5C-75-8A-1E-FA-B7-C3-E5-15-2B-1A-C6-2E-DE-15-EA-65-61-57-AD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ComponentModel.EventBasedAsync.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.ComponentModel.EventBasedAsync</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-4A-11-80-97-8D-07-75-3B-DC-C9-BF-D2-1B-28-56-5B-54-2A-84">
+      <ModulePath>C:\Users\adam\.nuget\packages\moq\4.10.1\lib\netstandard1.3\Moq.dll</ModulePath>
+      <ModuleTime>2018-12-04T00:19:18Z</ModuleTime>
+      <ModuleName>Moq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FE-00-14-F6-B4-AE-8E-4F-87-FD-29-85-3C-EB-EB-B5-CB-CD-EB-3F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Text.RegularExpressions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Text.RegularExpressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="92-64-C7-91-A8-E6-70-99-24-F1-6D-0B-92-1C-D9-C9-45-A4-14-03">
+      <ModulePath>C:\Users\adam\.nuget\packages\system.configuration.configurationmanager\4.4.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll</ModulePath>
+      <ModuleTime>2017-07-19T14:01:30Z</ModuleTime>
+      <ModuleName>System.Configuration.ConfigurationManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AC-86-75-F9-1A-48-79-04-2E-D6-60-C1-D8-00-05-81-85-55-2A-57">
+      <ModulePath>C:\Users\adam\.nuget\packages\system.security.cryptography.protecteddata\4.4.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll</ModulePath>
+      <ModuleTime>2017-07-19T14:01:34Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.ProtectedData</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="53-54-24-5E-85-2F-DC-31-01-9F-64-96-C1-B7-CA-E0-56-B4-71-FF">
+      <ModulePath>C:\Users\adam\.nuget\packages\system.xml.xpath.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XPath.XmlDocument.dll</ModulePath>
+      <ModuleTime>2016-06-12T03:15:02Z</ModuleTime>
+      <ModuleName>System.Xml.XPath.XmlDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CD-5C-3C-D7-E1-B3-C4-CE-67-6E-AB-AA-69-E6-0D-38-FD-C3-80-82">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.XPath.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.XPath</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-F5-F3-D5-06-36-35-76-5B-E0-BE-AB-80-32-9A-0C-1D-A8-76-19">
+      <ModulePath>C:\Users\adam\.nuget\packages\xunit.assert\2.4.1\lib\netstandard1.1\xunit.assert.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:16:52Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="04-8A-E8-86-D2-B9-0C-14-B0-FB-AC-8F-85-2A-95-37-A1-72-00-13">
+      <ModulePath>C:\Users\adam\.nuget\packages\xunit.extensibility.core\2.4.1\lib\netstandard1.1\xunit.core.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:16:58Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E3-6E-00-D8-65-B5-77-8F-A6-87-2B-7E-91-AA-43-C2-F5-06-E3-D2">
+      <ModulePath>C:\Users\adam\.nuget\packages\xunit.extensibility.execution\2.4.1\lib\netstandard1.1\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:00Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="4C-73-3F-D5-F5-86-31-7E-45-25-D7-86-27-F8-66-75-BC-B0-5E-71">
+      <Summary numSequencePoints="69" visitedSequencePoints="68" numBranchPoints="44" visitedBranchPoints="43" sequenceCoverage="98.55" branchCoverage="97.73" maxCyclomaticComplexity="9" minCyclomaticComplexity="1" maxCrapScore="9" minCrapScore="1" visitedClasses="6" numClasses="6" visitedMethods="21" numMethods="22" />
+      <ModulePath>C:\git\commercehub-challenge\tests\Exercise.Tests\bin\Release\netcoreapp2.2\Exercise.dll</ModulePath>
+      <ModuleTime>2021-05-29T03:44:35.0798532Z</ModuleTime>
+      <ModuleName>Exercise</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\git\commercehub-challenge\src\Exercise\Shipping\ShipmentApiGateway.cs" />
+        <File uid="2" fullPath="C:\git\commercehub-challenge\src\Exercise\Shipping\ShipmentDispatchResult.cs" />
+        <File uid="3" fullPath="C:\git\commercehub-challenge\src\Exercise\Scheduling\Event.cs" />
+        <File uid="4" fullPath="C:\git\commercehub-challenge\src\Exercise\Scheduling\Planner.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="2" maxCrapScore="4" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Exercise.Shipping.ShipmentApiGateway</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Exercise.Shipping.ShipmentApiGateway::.ctor(Partner.Integrations.Shipments.IShipmentDispatcher)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="1" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="60" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="2" ordinal="1" offset="6" sl="14" sc="4" el="14" ec="88" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="4" uspid="3" ordinal="2" offset="28" sl="15" sc="3" el="15" ec="4" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="4" ordinal="0" offset="9" sl="14" path="0" offsetend="11" fileid="1" />
+                <BranchPoint vc="4" uspid="5" ordinal="1" offset="9" sl="14" path="1" offsetend="23" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="1" ordinal="0" offset="0" sl="12" sc="3" el="12" ec="60" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="4" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4" minCrapScore="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Exercise.Shipping.ShipmentDispatchResult&gt; Exercise.Shipping.ShipmentApiGateway::Notify(System.Collections.Generic.IList`1&lt;System.String&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="6" ordinal="0" offset="0" sl="19" sc="13" el="19" ec="54" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="1" offset="10" sl="21" sc="5" el="21" ec="71" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="8" ordinal="2" offset="33" sl="24" sc="4" el="24" ec="69" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="9" ordinal="3" offset="39" sl="25" sc="47" el="25" ec="62" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="106" uspid="10" ordinal="4" offset="48" sl="25" sc="22" el="25" ec="43" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="106" uspid="11" ordinal="5" offset="55" sl="30" sc="6" el="30" ec="55" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="104" uspid="12" ordinal="6" offset="76" sl="31" sc="6" el="31" ec="80" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="104" uspid="13" ordinal="7" offset="84" sl="32" sc="5" el="32" ec="6" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="14" ordinal="8" offset="86" sl="33" sc="5" el="33" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="15" ordinal="9" offset="88" sl="35" sc="21" el="38" ec="23" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="16" ordinal="10" offset="104" sl="39" sc="5" el="39" ec="6" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="106" uspid="17" ordinal="11" offset="106" sl="40" sc="5" el="40" ec="57" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="109" uspid="18" ordinal="12" offset="113" sl="25" sc="44" el="25" ec="46" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="19" ordinal="13" offset="133" sl="43" sc="4" el="43" ec="35" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="20" ordinal="0" offset="8" sl="19" path="0" offsetend="10" fileid="1" />
+                <BranchPoint vc="3" uspid="21" ordinal="1" offset="8" sl="19" path="1" offsetend="33" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="6" ordinal="0" offset="0" sl="19" sc="13" el="19" ec="54" bec="2" bev="2" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="7" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="87.5" branchCoverage="80" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="5" />
+          <FullName>Exercise.Shipping.ShipmentDispatchResult</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.String Exercise.Shipping.ShipmentDispatchResult::get_TrackingNumber()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="24" ordinal="0" offset="0" sl="21" sc="34" el="21" ec="38" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="24" ordinal="0" offset="0" sl="21" sc="34" el="21" ec="38" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Boolean Exercise.Shipping.ShipmentDispatchResult::get_Success()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="25" ordinal="0" offset="0" sl="26" sc="25" el="26" ec="29" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="25" ordinal="0" offset="0" sl="26" sc="25" el="26" ec="29" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Exception Exercise.Shipping.ShipmentDispatchResult::get_Exception()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="26" ordinal="0" offset="0" sl="30" sc="32" el="30" ec="36" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="26" ordinal="0" offset="0" sl="30" sc="32" el="30" ec="36" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void Exercise.Shipping.ShipmentDispatchResult::set_Exception(System.Exception)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="27" ordinal="0" offset="0" sl="30" sc="37" el="30" ec="41" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="27" ordinal="0" offset="0" sl="30" sc="37" el="30" ec="41" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void Exercise.Shipping.ShipmentDispatchResult::.ctor(System.String,System.Boolean)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="106" uspid="28" ordinal="0" offset="0" sl="13" sc="3" el="13" ec="69" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="106" uspid="29" ordinal="1" offset="6" sl="15" sc="4" el="15" ec="36" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="106" uspid="30" ordinal="2" offset="13" sl="16" sc="4" el="16" ec="22" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="106" uspid="31" ordinal="3" offset="20" sl="17" sc="3" el="17" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="106" uspid="28" ordinal="0" offset="0" sl="13" sc="3" el="13" ec="69" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>Exercise.Scheduling.Event</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.DateTime Exercise.Scheduling.Event::get_Start()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="39" uspid="32" ordinal="0" offset="0" sl="15" sc="27" el="15" ec="31" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="39" uspid="32" ordinal="0" offset="0" sl="15" sc="27" el="15" ec="31" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Event::set_Start(System.DateTime)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="17" uspid="33" ordinal="0" offset="0" sl="15" sc="32" el="15" ec="36" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="17" uspid="33" ordinal="0" offset="0" sl="15" sc="32" el="15" ec="36" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.TimeSpan Exercise.Scheduling.Event::get_Duration()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="14" uspid="34" ordinal="0" offset="0" sl="20" sc="30" el="20" ec="34" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="14" uspid="34" ordinal="0" offset="0" sl="20" sc="30" el="20" ec="34" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Event::set_Duration(System.TimeSpan)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="17" uspid="35" ordinal="0" offset="0" sl="20" sc="35" el="20" ec="39" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="17" uspid="35" ordinal="0" offset="0" sl="20" sc="35" el="20" ec="39" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.String Exercise.Scheduling.Event::get_Name()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="36" ordinal="0" offset="0" sl="25" sc="24" el="25" ec="28" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="36" ordinal="0" offset="0" sl="25" sc="24" el="25" ec="28" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Event::set_Name(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="17" uspid="37" ordinal="0" offset="0" sl="25" sc="29" el="25" ec="33" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="17" uspid="37" ordinal="0" offset="0" sl="25" sc="29" el="25" ec="33" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Event::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="38" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="35" visitedSequencePoints="35" numBranchPoints="24" visitedBranchPoints="24" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="9" minCyclomaticComplexity="1" maxCrapScore="9" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>Exercise.Scheduling.Planner</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="3" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3" minCrapScore="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>Exercise.Scheduling.Planner Exercise.Scheduling.Planner::get_Instance()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="26" uspid="39" ordinal="0" offset="0" sl="26" sc="5" el="26" ec="16" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="26" uspid="40" ordinal="1" offset="16" sl="28" sc="6" el="28" ec="45" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="26" uspid="41" ordinal="2" offset="35" sl="29" sc="6" el="29" ec="23" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="26" uspid="42" ordinal="3" offset="53" sl="31" sc="4" el="31" ec="5" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="43" ordinal="0" offset="22" sl="28" path="0" offsetend="24" fileid="4" />
+                <BranchPoint vc="25" uspid="44" ordinal="1" offset="22" sl="28" path="1" offsetend="30" fileid="4" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="26" uspid="39" ordinal="0" offset="0" sl="26" sc="5" el="26" ec="16" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Planner::.ctor()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="45" ordinal="0" offset="0" sl="14" sc="3" el="14" ec="19" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="46" ordinal="1" offset="6" sl="16" sc="4" el="16" ec="31" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="47" ordinal="2" offset="16" sl="17" sc="3" el="17" ec="4" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="45" ordinal="0" offset="0" sl="14" sc="3" el="14" ec="19" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>Exercise.Scheduling.Event Exercise.Scheduling.Planner::GetNextEvent(System.DateTime)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="48" ordinal="0" offset="13" sl="36" sc="4" el="36" ec="17" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="49" ordinal="1" offset="19" sl="37" sc="4" el="37" ec="77" bec="2" bev="2" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="50" ordinal="0" offset="30" sl="37" path="0" offsetend="32" fileid="4" />
+                <BranchPoint vc="2" uspid="51" ordinal="1" offset="30" sl="37" path="1" offsetend="55" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="3" uspid="52" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="9" nPathComplexity="64" sequenceCoverage="100" branchCoverage="100" crapScore="9" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="13" visitedBranchPoints="13" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="9" minCyclomaticComplexity="9" maxCrapScore="9" minCrapScore="9" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Boolean Exercise.Scheduling.Planner::TrySchedule(Exercise.Scheduling.Event,System.Collections.Generic.IEnumerable`1&lt;Exercise.Scheduling.Event&gt;&amp;)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="53" ordinal="0" offset="0" sl="42" sc="4" el="42" ec="17" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="54" ordinal="1" offset="6" sl="43" sc="4" el="43" ec="43" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="55" ordinal="2" offset="12" sl="44" sc="32" el="44" ec="60" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="6" uspid="56" ordinal="3" offset="61" sl="44" sc="13" el="44" ec="28" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="57" ordinal="4" offset="68" sl="46" sc="5" el="46" ec="42" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="58" ordinal="5" offset="75" sl="47" sc="5" el="47" ec="64" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="59" ordinal="6" offset="98" sl="48" sc="5" el="48" ec="47" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="60" ordinal="7" offset="106" sl="49" sc="5" el="49" ec="74" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="61" ordinal="8" offset="129" sl="51" sc="5" el="52" ec="75" bec="5" bev="5" fileid="4" />
+                <SequencePoint vc="1" uspid="62" ordinal="9" offset="171" sl="54" sc="6" el="54" ec="36" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="9" uspid="63" ordinal="10" offset="178" sl="44" sc="29" el="44" ec="31" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="64" ordinal="11" offset="198" sl="57" sc="4" el="57" ec="31" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="65" ordinal="12" offset="201" sl="58" sc="4" el="58" ec="29" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="1" uspid="66" ordinal="13" offset="209" sl="60" sc="5" el="60" ec="18" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="67" ordinal="14" offset="211" sl="62" sc="4" el="62" ec="31" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="68" ordinal="15" offset="222" sl="63" sc="4" el="63" ec="16" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="69" ordinal="0" offset="23" sl="44" path="0" offsetend="25" fileid="4" />
+                <BranchPoint vc="2" uspid="70" ordinal="1" offset="23" sl="44" path="1" offsetend="48" fileid="4" />
+                <BranchPoint vc="2" uspid="71" ordinal="2" offset="137" sl="51" path="0" offsetend="139" fileid="4" />
+                <BranchPoint vc="4" uspid="72" ordinal="3" offset="137" sl="51" path="1" offsetend="150" fileid="4" />
+                <BranchPoint vc="5" uspid="73" ordinal="4" offset="148" sl="51" path="0" offsetend="150" fileid="4" />
+                <BranchPoint vc="1" uspid="74" ordinal="5" offset="148" sl="51" path="1" offsetend="178" fileid="4" />
+                <BranchPoint vc="4" uspid="75" ordinal="6" offset="158" sl="51" path="0" offsetend="160" fileid="4" />
+                <BranchPoint vc="1" uspid="76" ordinal="7" offset="158" sl="51" path="1" offsetend="171" fileid="4" />
+                <BranchPoint vc="1" uspid="77" ordinal="8" offset="169" sl="51" path="0" offsetend="171" fileid="4" />
+                <BranchPoint vc="5" uspid="78" ordinal="9" offset="169" sl="51" path="1" offsetend="178" fileid="4" />
+                <BranchPoint vc="1" uspid="81" ordinal="12" offset="207" sl="58" path="0" offsetend="209" fileid="4" />
+                <BranchPoint vc="2" uspid="82" ordinal="13" offset="207" sl="58" path="1" offsetend="211" fileid="4" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="53" ordinal="0" offset="0" sl="42" sc="4" el="42" ec="17" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="3" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3" minCrapScore="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>Exercise.Scheduling.IPlanner Exercise.Scheduling.Planner::FromJson(System.IO.Stream)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="83" ordinal="0" offset="0" sl="72" sc="4" el="72" ec="17" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="7" uspid="84" ordinal="1" offset="6" sl="73" sc="4" el="73" ec="44" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="7" uspid="85" ordinal="2" offset="12" sl="74" sc="11" el="74" ec="63" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="84" uspid="86" ordinal="3" offset="21" sl="79" sc="6" el="79" ec="37" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="91" uspid="87" ordinal="4" offset="29" sl="77" sc="5" el="77" ec="53" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="7" uspid="88" ordinal="5" offset="39" sl="81" sc="4" el="81" ec="5" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="7" uspid="89" ordinal="6" offset="51" sl="82" sc="4" el="82" ec="40" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="7" uspid="90" ordinal="7" offset="57" sl="83" sc="4" el="83" ec="62" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="7" uspid="91" ordinal="8" offset="67" sl="84" sc="4" el="84" ec="20" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="7" uspid="92" ordinal="0" offset="37" sl="77" path="0" offsetend="39" fileid="4" />
+                <BranchPoint vc="84" uspid="93" ordinal="1" offset="37" sl="77" path="1" offsetend="21" fileid="4" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="83" ordinal="0" offset="0" sl="72" sc="4" el="72" ec="17" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Planner::.cctor()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="94" ordinal="0" offset="0" sl="19" sc="3" el="19" ec="54" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="94" ordinal="0" offset="0" sl="19" sc="3" el="19" ec="54" bec="0" bev="0" fileid="4" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Exercise.Scheduling.Planner/&lt;&gt;c__DisplayClass6_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Planner/&lt;&gt;c__DisplayClass6_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="95" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Boolean Exercise.Scheduling.Planner/&lt;&gt;c__DisplayClass6_0::&lt;GetNextEvent&gt;b__1(Exercise.Scheduling.Event)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="96" ordinal="0" offset="0" sl="37" sc="60" el="37" ec="75" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="96" ordinal="0" offset="0" sl="37" sc="60" el="37" ec="75" bec="0" bev="0" fileid="4" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Exercise.Scheduling.Planner/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Planner/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="97" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void Exercise.Scheduling.Planner/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="98" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.DateTime Exercise.Scheduling.Planner/&lt;&gt;c::&lt;GetNextEvent&gt;b__6_0(Exercise.Scheduling.Event)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="99" ordinal="0" offset="0" sl="37" sc="31" el="37" ec="38" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="99" ordinal="0" offset="0" sl="37" sc="31" el="37" ec="38" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.DateTime Exercise.Scheduling.Planner/&lt;&gt;c::&lt;TrySchedule&gt;b__7_0(Exercise.Scheduling.Event)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="100" ordinal="0" offset="0" sl="44" sc="52" el="44" ec="59" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="100" ordinal="0" offset="0" sl="44" sc="52" el="44" ec="59" bec="0" bev="0" fileid="4" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="90-A7-DF-82-AD-A9-23-E5-63-C9-BD-F4-06-04-65-2C-18-75-B8-B9">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\Microsoft.CSharp.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>Microsoft.CSharp</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AA-93-58-2F-7D-B8-C7-B5-00-8C-EE-D8-F8-E8-52-C5-5C-6E-BB-A1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\Microsoft.VisualBasic.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>Microsoft.VisualBasic</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="65-F4-D6-94-84-40-54-BA-E7-FC-D2-9D-E2-48-80-17-1C-D3-06-49">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\Microsoft.Win32.Registry.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>Microsoft.Win32.Registry</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-A0-FC-0F-0B-D4-3A-59-46-C2-45-56-A0-16-2E-C9-26-90-F8-98">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.AccessControl.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.AccessControl</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="2C-B6-46-6B-62-EB-9B-38-08-20-60-E3-CF-E4-7A-4B-9C-49-F0-03">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\SOS.NETCore.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>SOS.NETCore</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-45-E9-8B-90-FA-56-DC-CD-72-DA-FD-71-74-91-97-F8-7D-73-A7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ComponentModel.Annotations.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.ComponentModel.Annotations</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="66-78-19-64-6D-B1-8A-42-48-3C-6F-BB-82-BF-E9-48-15-A8-49-46">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ComponentModel.DataAnnotations.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.ComponentModel.DataAnnotations</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="70-85-FF-B8-F4-58-52-9A-3C-E8-AF-07-8C-EE-49-CD-4A-6B-8B-74">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Configuration.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E7-23-14-6D-54-67-33-4F-21-5A-25-77-25-74-9B-3C-D0-D7-59-34">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Core.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0A-BF-EA-54-66-62-CC-12-55-A4-2E-64-1A-1B-FB-72-34-5B-02-6F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Data.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EB-65-0D-6A-F5-BA-67-FC-5E-1B-35-88-8D-D2-27-22-F6-74-54-A5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.Contracts.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Contracts</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="87-24-6F-3E-98-01-A4-55-01-67-93-F7-B0-7B-22-B0-9A-85-F7-DF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.DiagnosticSource.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-7B-A2-7D-8B-18-B4-71-E9-F6-75-03-9A-2F-C0-91-F5-BA-21-44">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.FileVersionInfo.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.FileVersionInfo</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-CA-9D-57-64-4E-45-57-A1-9B-7F-F7-F5-EE-D4-76-C1-84-3B-E0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.StackTrace.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.StackTrace</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="92-30-31-7D-AD-F1-A1-52-77-9B-BE-4E-8F-20-DE-62-21-5D-32-96">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Diagnostics.Tools.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tools</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E9-49-2F-C5-A2-B8-A8-55-D4-A4-4A-C5-AA-4A-B5-63-3D-E8-3D-38">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Drawing.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Drawing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B1-B5-F2-7B-F5-4C-F3-84-D0-72-52-78-FA-59-FB-3B-E6-57-0D-69">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Globalization.Calendars.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Globalization.Calendars</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="50-26-CF-FD-3C-B2-D0-7C-08-01-19-CE-4E-36-2D-16-8D-96-ED-7A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Globalization.Extensions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Globalization.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-8F-BB-6A-CF-BF-D0-59-26-53-F8-7B-DA-70-1F-1A-1C-3F-8E-49">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.Compression.Brotli.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.Compression.Brotli</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B9-90-79-AC-70-D9-DA-71-BA-CC-4D-7E-94-4B-E6-15-70-71-A3-E6">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.Compression.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.Compression</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-0B-F1-20-78-7F-C7-8A-82-43-B6-2B-05-E0-C2-6B-66-97-6D-BC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.Compression.FileSystem.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.Compression.FileSystem</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E3-2E-FB-6B-7F-62-3F-F8-18-80-2C-08-DC-6B-74-9F-68-C0-F2-0A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.Compression.ZipFile.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.Compression.ZipFile</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D6-D3-A7-9D-29-B3-CF-6A-32-3F-54-26-54-46-49-C2-69-21-83-D4">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.FileSystem.AccessControl.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.AccessControl</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-58-18-36-FA-59-AE-8C-FF-8E-EA-D6-85-71-4A-74-54-D5-CC-7D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.FileSystem.DriveInfo.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.DriveInfo</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B9-3A-F9-57-33-99-22-D6-3C-32-35-2A-12-28-15-C6-DF-6B-5C-E2">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.FileSystem.Watcher.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.Watcher</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-41-39-AC-FE-BA-C2-45-F8-65-CA-5B-32-42-40-97-95-E1-D0-AC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.IsolatedStorage.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.IsolatedStorage</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="85-91-55-17-23-6C-B6-B5-B7-F2-47-73-E3-A4-10-E9-E5-28-B7-18">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.MemoryMappedFiles.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.MemoryMappedFiles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="02-BD-74-18-72-10-58-32-1C-1E-98-C4-DF-C9-25-19-1E-14-E5-1C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.Pipes.AccessControl.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.Pipes.AccessControl</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5D-B7-7B-BC-CA-AE-23-3C-01-5C-87-40-FC-76-A0-4A-AB-C4-AB-41">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.Pipes.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.Pipes</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D7-41-43-7B-F0-94-21-08-8C-9C-B4-D0-D3-00-18-EA-BF-FF-E4-6A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.IO.UnmanagedMemoryStream.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.IO.UnmanagedMemoryStream</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4B-1B-D9-91-A1-5F-63-EB-DF-77-1F-0D-DE-23-5A-63-3F-22-A2-AD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Linq.Parallel.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Linq.Parallel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3F-7D-28-20-41-28-15-D3-D9-82-7E-D0-27-1C-F1-CA-5B-4A-66-55">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Linq.Queryable.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Linq.Queryable</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="14-95-3B-9A-81-5D-9C-7A-24-D3-FB-60-DD-72-60-47-1E-C5-4B-CC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:08Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3D-50-B5-17-65-29-8F-A9-B3-7B-3D-6B-D1-E2-D9-28-E3-61-39-66">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.Security.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.Security</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C7-7E-72-41-F0-34-D5-81-BF-07-3B-27-C2-FA-71-0A-AA-C2-4F-BA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.HttpListener.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.HttpListener</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C7-9D-01-8C-C0-32-0D-6D-3B-18-DF-1E-95-7B-32-CC-AD-95-43-9D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.WebSockets.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.WebSockets</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="66-08-A3-FF-F1-7A-B6-27-D9-79-7A-53-5F-F7-FC-E3-E6-2A-02-FB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.Mail.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.Mail</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-8E-77-5B-23-60-81-3D-3A-23-11-9B-E7-EB-4B-F6-B2-40-B3-39">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.NetworkInformation.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.NetworkInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="98-7A-D4-CF-80-DD-B2-D7-E8-79-8C-88-4A-33-56-41-14-89-D3-9F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.Ping.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.Ping</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="22-CA-EC-FE-70-E2-A7-A9-A0-74-32-0D-9D-3A-F1-C4-71-0D-53-BA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.Requests.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.Requests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-1F-87-84-6A-71-BA-AA-6C-E8-9C-33-80-8B-D9-49-6B-F1-AC-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Cryptography.X509Certificates.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.X509Certificates</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-A2-43-5A-16-45-9B-0E-79-D1-82-EF-DC-14-CF-D2-BC-FE-66-EE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.ServicePoint.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.ServicePoint</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D8-8A-D3-24-70-ED-CE-D9-4C-49-D7-20-C6-68-F3-43-E0-EB-46-EF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.WebClient.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.WebClient</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-49-66-A3-D5-FE-04-E2-B8-E8-F8-79-70-47-02-31-64-1C-F0-1E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.WebHeaderCollection.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.WebHeaderCollection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A5-B2-7F-6E-CC-3E-01-05-30-A5-4D-5C-BC-41-C2-95-D4-A2-1C-BB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.WebProxy.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.WebProxy</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3F-60-42-C2-81-AF-4D-6B-BD-C0-2E-52-19-C2-D7-A1-B5-C7-8F-8C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.WebSockets.Client.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net.WebSockets.Client</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-7E-6B-40-EA-75-41-54-3B-54-D6-BC-56-4D-50-83-C8-B3-42-C7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Net.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Net</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="17-DE-51-70-50-9A-0F-2B-C5-71-E4-36-5C-7A-92-A3-A4-65-0C-87">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Numerics.Vectors.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Numerics.Vectors</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="91-AD-29-34-E2-8B-B8-BF-90-26-BA-8C-B5-1E-C0-65-2B-A1-5F-83">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Numerics.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Numerics</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5F-1F-4A-CA-D9-50-E7-83-1A-1A-F6-56-00-4C-C6-20-01-20-68-6D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Private.DataContractSerialization.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Private.DataContractSerialization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D5-B0-C7-6C-E9-F1-F7-59-78-81-6A-EB-0A-AA-76-AC-85-BE-5B-10">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.Emit.ILGeneration.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit.ILGeneration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="37-90-0D-F4-85-E4-A0-F0-C3-77-42-86-39-51-A5-87-1C-1F-B9-BC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.DispatchProxy.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.DispatchProxy</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="42-1B-A8-FD-52-7B-4D-A6-9D-A1-BC-26-F1-A7-C2-A1-96-0E-B1-E4">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.Emit.Lightweight.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit.Lightweight</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A5-9A-BD-B8-CF-BC-C1-7D-F7-FD-64-57-DA-9D-81-CD-61-1E-0F-C5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Reflection.Emit.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CF-56-58-19-72-46-7F-63-55-4B-2F-01-85-58-88-A5-94-76-39-01">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Resources.Reader.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Resources.Reader</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="70-44-81-3E-97-20-E2-0A-D8-72-9D-16-FB-6A-72-99-08-26-2A-79">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Resources.Writer.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Resources.Writer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D5-86-1E-1E-D0-14-F4-D6-D3-9A-1A-F1-24-72-24-1E-47-E0-8E-E7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.CompilerServices.VisualC.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.CompilerServices.VisualC</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="37-14-1C-32-09-5B-50-A6-1C-FF-27-AB-E8-AA-A2-96-6F-0E-89-EF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Handles.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Handles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8C-8E-55-4B-EC-87-24-85-85-DB-E9-14-BE-64-78-6F-C5-7E-52-F5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.InteropServices.WindowsRuntime.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.WindowsRuntime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-B4-F1-B6-D6-A9-4B-3C-D8-C0-7E-BB-95-5D-24-23-11-CC-96-02">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Serialization.Json.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization.Json</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-5E-9F-9D-33-20-57-AC-E6-D2-B3-8D-60-D2-84-28-AC-F4-6F-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Serialization.Xml.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FC-AB-4D-2E-0E-C6-91-A3-90-32-A2-E2-F5-1D-E7-BD-17-73-99-5E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Runtime.Serialization.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="15-37-BC-15-22-34-15-AA-FC-63-95-B4-DF-C1-55-26-C1-3A-D5-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Cryptography.Encoding.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="49-63-76-FD-F4-85-AA-DB-01-A4-A9-26-AB-EA-7F-67-09-08-EE-E3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Cryptography.Primitives.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B1-B1-6F-D6-A1-FF-70-6F-ED-DC-63-C0-3F-00-1C-45-8B-7F-D1-5F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Cryptography.Cng.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Cng</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D6-11-E4-2F-62-B8-B6-53-0B-C7-41-CF-3B-96-80-E6-08-AE-97-D4">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Cryptography.Csp.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Csp</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-06-F3-56-EC-BB-F3-B6-3B-26-E8-1F-7C-EE-67-48-DA-74-D5-42">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.Cryptography.OpenSsl.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.OpenSsl</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E8-08-FE-E1-E2-5F-9A-E9-2E-D5-7F-A9-FD-37-3A-18-63-C3-6C-89">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.SecureString.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security.SecureString</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="86-E0-78-A5-0C-82-EA-09-8E-F2-C0-59-81-13-95-29-91-39-BC-48">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Security.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Security</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9E-6C-F5-1B-92-5C-36-46-B5-DE-AD-9D-93-59-A9-18-98-DB-A5-5D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ServiceModel.Web.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.ServiceModel.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="29-BC-1A-60-F2-47-4C-54-03-6D-80-A3-C3-AF-1C-12-D0-77-D4-97">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ServiceProcess.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.ServiceProcess</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-34-98-2D-ED-D6-B9-26-E6-66-D2-53-9F-CB-54-6B-F7-88-E2-A5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.Tasks.Dataflow.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks.Dataflow</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="08-28-D4-55-6E-86-C5-DF-1E-B6-E6-FC-ED-22-04-BD-BD-9C-56-49">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.Tasks.Extensions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C2-3C-1C-67-5F-2F-39-1A-1B-44-46-3A-8A-46-E8-7C-DC-B2-17-68">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Threading.Tasks.Parallel.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks.Parallel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D0-43-ED-B7-DC-BF-FA-39-91-1B-74-7F-EB-05-5F-88-AC-3F-C5-61">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Transactions.Local.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Transactions.Local</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="40-8E-2D-4D-01-D0-FF-CE-23-5F-99-50-2C-0E-4F-2C-F5-1D-D5-BD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Transactions.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Transactions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EB-77-53-6D-D7-08-35-6C-01-6A-C5-B5-39-49-E3-C1-C7-EA-DD-02">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.ValueTuple.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.ValueTuple</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A7-8D-17-8E-3B-74-51-67-10-67-78-2E-51-95-05-CB-60-77-8A-7E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Web.HttpUtility.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Web.HttpUtility</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="66-08-DE-F7-15-E2-53-5A-1E-FD-EC-0C-29-8F-93-A9-18-B1-D0-11">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Web.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3E-58-A5-76-6D-1F-F7-AE-E8-45-8D-1E-ED-2B-A2-05-46-BC-09-68">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Windows.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Windows</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="17-84-A7-DF-FE-3A-C9-EF-9F-5B-0F-4A-17-F8-BF-00-97-FE-0E-5C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8A-CB-42-7F-C5-7E-70-86-86-D2-F8-9B-48-19-02-5A-45-1F-48-F0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.Serialization.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.Serialization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8B-11-F4-1E-B5-BF-4A-2E-CC-F7-03-EE-29-51-79-F2-9E-DA-6C-81">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.XPath.XDocument.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.XPath.XDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-F4-13-74-AE-30-67-C0-21-94-7E-FC-7A-7D-F5-BE-53-98-10-0D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.XmlSerializer.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml.XmlSerializer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="52-12-5B-FC-4D-8C-9C-B1-E4-20-C1-30-D4-B0-29-EE-AC-ED-1E-53">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.Xml.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0A-A4-C6-E5-E5-EA-60-74-2C-54-40-92-4D-A3-6F-85-34-95-12-38">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\System.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-C8-2F-CE-82-E4-FD-DC-F1-38-BF-85-44-E5-C6-5E-88-66-CC-AD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\WindowsBase.dll</ModulePath>
+      <ModuleTime>2019-10-09T11:15:10Z</ModuleTime>
+      <ModuleName>WindowsBase</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2B-0E-C4-2C-54-CA-19-66-1A-7E-27-2A-03-A3-92-F0-59-0C-D6-9D">
+      <ModulePath>C:\git\commercehub-challenge\tests\Exercise.Tests\bin\Release\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:14Z</ModuleTime>
+      <ModuleName>xunit.runner.reporters.netcoreapp10</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-48-8E-CA-A5-B9-7A-0F-00-04-D9-05-3D-F8-9B-C8-CC-66-86-A7">
+      <ModulePath>C:\git\commercehub-challenge\tests\Exercise.Tests\bin\Release\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:12Z</ModuleTime>
+      <ModuleName>xunit.runner.visualstudio.dotnetcore.testadapter</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

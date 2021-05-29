@@ -13,9 +13,6 @@
 # Cake
 [Tt]ools/
 
-# Working files
-*.zip
-
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -27,7 +24,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-[Bb]uild[Aa]rtifacts/
 
 # Visual Studio 2015 cache/options directory
 .vs/
